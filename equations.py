@@ -46,6 +46,8 @@ print (sqrt(x, y))
 
 #C
 def calculate (x):
+    if x==0:
+        return 0    
     calculator = exponent(x)*XtimesY(7,x)*(1/x)*sqrt(x,x) 
     return calculator
 print (calculate(x))
