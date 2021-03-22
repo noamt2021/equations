@@ -38,7 +38,7 @@ def XtimesY (x,y):
 #print (XtimesY(x, y))
 #B
 def sqrt (x,y):
-    if (y<=0) and (x%2==0):
+    if (y<=0):
         return 0
     b = exponent((1/x)*(Ln (y)))
     return b
