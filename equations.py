@@ -48,7 +48,8 @@ def sqrt (x,y):
 def calculate (x):
     if x==0:
         return 0    
-    calculator = exponent(x)*XtimesY(7,x)*(1/x)*sqrt(x,x) 
+    calculator = exponent(x)*XtimesY(7,x)*(1/x)*sqrt(x,x)
+    calculator = float('%0.6f' % calculator)
     return calculator
 #print (calculate(x))
 
